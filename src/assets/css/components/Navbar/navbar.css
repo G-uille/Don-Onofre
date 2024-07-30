@@ -1,0 +1,86 @@
+/*----Contenedor principal del navbar----*/
+.container-navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 200px;
+    background: #ffe600;
+/*     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 0px, rgba(0, 0, 0, 0.14) 0px 5px 4px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 4px;
+ */    z-index: 1000;
+}
+
+
+/*----Clase para la imagen en el navbar----*/
+.navbar-img{
+    max-width: 150px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+/***----Contenedor del buscador del navbar-----*/
+.container-search{
+    margin-left: 20px;
+    width: 500px;
+}
+
+/*----Buscador del navbar----*/
+.navbar__search{
+    padding: 5px 10px 5px 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/*-----Boton Login------*/
+.navbar-login__btn{
+    padding: 5px 30px 5px 30px;
+    margin-left: 50px;
+    background-color: #ffe600;
+    border: none;
+    cursor: pointer;
+}
+.navbar-login__btn:hover{
+    text-decoration: underline;
+}
+
+
+/*----Boton registrarse------*/
+.navbar-login__btn.register{
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    margin-left: 0px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.navbar-login__btn.register:hover{
+    background-color: rgb(225, 225, 225);
+}
+
+/*-----Userdata-------*/
+.navbar-userdata{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 14px;
+}
+/*-----Userdata-------*/
+.navbar-userdata.bold{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+/*----Container row----*/
+.container-row.userData{
+    width: 300px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

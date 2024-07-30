@@ -1,0 +1,31 @@
+/*-----Conenedor de la imagen del bodysection-------*/
+.body-section__img{
+    max-width: 300px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+/*---Contenedor de los elementos----*/
+.container-body-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    /* background: url("../../../images/bg.png"); */
+
+}
+
+/*----Descripcion con la imagen de botellas-----*/
+.container-bottle-with-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----Texto span**-----*/
+.body-section__text--span{
+    margin-right: 7px;
+    height: 29px;
+    display: flex;
+    align-items: flex-end;
+}

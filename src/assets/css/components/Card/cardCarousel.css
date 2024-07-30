@@ -1,0 +1,83 @@
+
+
+/*------Contenedor principal del carousel------*/
+.container-card-carousel{
+    padding: 15px;
+    transition: all .4 ease;
+}
+
+
+/*-----Contenedor Principal del carousel-------*/
+.container-card-carousel__alt{
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    transition: all .4 ease;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    cursor: pointer;
+}
+.container-card-carousel__alt:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+
+}
+
+/*----Contenedor del titulo con la descripcion----*/
+.card-carousel__description{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+/*----Texto del precio-------*/
+.card-carousel__price{
+    font-weight: 200    ;
+}
+
+/*-----Imagen del carousel------*/
+.card-carousel__img{
+    max-width: 100px;
+}
+
+/*----Contenedor de nuevo------*/
+.card-carousel__new{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+
+.card-carousel__new span{
+    background-color: rgb(239, 66, 66);
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    margin-right: 20px;
+    font-size: 11px;
+}
+
+/*----Boton para comprar------*/
+.card-carousel__btn{
+    padding: 5px 63px 5px 63px;
+    border: none;
+    margin-top: 10px;
+    background-color: #d3e5ff;
+    border-radius: 5px;
+    color: #3483fa;
+    cursor: pointer;
+}
+
+.container-card-carousel__alt:hover .card-carousel__btn{
+    background-color: #afd0ff;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}

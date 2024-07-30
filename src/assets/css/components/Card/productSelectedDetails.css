@@ -1,0 +1,74 @@
+
+/**------Contenedor Principal-------*/
+.container-product-selected-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0px 200px 0px 30px;
+}
+
+/*-----Imagen del producto-----*/
+.product-selected-details__img{
+    max-width: 400px;
+}
+
+/*----Contenedor con las discripciones-------*/
+.container-product-selected__descriptions{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*------TItulo------*/
+.product-selected__title{
+    width: 100%;
+    font-size: 14px;
+    color: #ffa200;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 15px;
+}
+
+/*----Nomrbe del producto-----*/
+.product-selected__name{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*------Bonton para comprar-------*/
+.product-selected__btn{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    background-color: #ffe600;
+    cursor: pointer;
+
+}
+.product-selected__btn:hover{
+
+    background-color: #f8e117;
+}
+
+.container-image__mask{
+    overflow: hidden;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}

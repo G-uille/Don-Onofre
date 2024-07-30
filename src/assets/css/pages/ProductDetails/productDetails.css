@@ -1,0 +1,10 @@
+/*------Conteneod principal-------*/
+.container-product-details{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    flex-direction: column;
+}
